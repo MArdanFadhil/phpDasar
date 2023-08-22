@@ -1,9 +1,10 @@
 <?php
+    $i = 0;
 
-    $ganjil;
-    $genap;
-    $nilai;
-
-    for($i = 0; $i < $nilai; i++)
-
-?>
+    while ($i <= 50){
+        if($i%2 == 0){
+            echo "$i : bil genap <br>";
+        }else{
+            echo "$i : bil ganjil <br>";
+        }
+    }
